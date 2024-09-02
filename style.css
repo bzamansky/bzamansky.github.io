@@ -73,7 +73,7 @@ hr {
 
 #sidebar {
     background-color: var(--bs-tertiary-bg);
-    width: 280px;
+    min-width: 280px;
 }
 
 .section {
