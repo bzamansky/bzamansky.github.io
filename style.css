@@ -54,6 +54,11 @@
     --bs-form-invalid-border-color: #ea868f;
 }
 
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 body {
     background-color: var(--bs-body-bg);
     height: 100%;
@@ -66,4 +71,14 @@ hr {
 #sidebar {
     background-color: var(--bs-tertiary-bg);
     width: 280px;
+}
+
+ul {
+    background-color: var(--bs-tertiary-bg);
+    max-width: fit-content;
+}
+
+.list-group-item {
+    background-color: var(--bs-body-bg);
+    color: white;
 }
